@@ -3,14 +3,16 @@
 // You can put the expression for the second element where ??? is so that the test passes.
 // Execute `rustlings hint primitive_types6` for hints!
 
-// I AM NOT DONE
+// I AM !NOT DONE
 
 #[test]
 fn indexing_tuple() {
     let numbers = (1, 2, 3);
     // Replace below ??? with the tuple indexing syntax.
-    let second = ???;
+    let second = numbers.1;
 
     assert_eq!(2, second,
         "This is not the 2nd number in the tuple!")
 }
+
+// https://doc.rust-lang.org/rust-by-example/flow_control/match/destructuring/destructure_tuple.html
