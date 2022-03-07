@@ -7,3 +7,8 @@
 fn main() {
     println!("Hello {}!", "World");
 }
+
+// error reference
+// error: linking with `cc` failed: exit status: 1
+// (try the following commands)
+// xcode-select --install
